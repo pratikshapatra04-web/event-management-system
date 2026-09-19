@@ -1,0 +1,21 @@
+venue_name,city,capacity,price_per_day,rating,image
+Grand Palace Hall,Mumbai,500,120000,4.9,/event-images/event-img01.jpg
+Royal Wedding Garden,Mumbai,800,150000,4.8,/event-images/event-img02.jpg
+Sea Breeze Banquet,Mumbai,250,85000,4.5,/event-images/event-img03.jpg
+Mumbai Gateway Pavilion,Mumbai,350,110000,4.6,/event-images/event-img04.jpg
+Juhu Beach Banquet Hall,Mumbai,150,75000,4.3,/event-images/event-img05.jpg
+Metro Conference Center,Delhi,300,75000,4.6,/event-images/event-img04.jpg
+Lakeside Marriage Lawn,Delhi,600,110000,4.7,/event-images/event-img05.jpg
+City Light Party Hall,Delhi,150,45000,4.2,/event-images/event-img06.jpg
+Connaught Place Convention,Delhi,400,95000,4.8,/event-images/event-img01.jpg
+Raj Bagh Palace Lawn,Delhi,800,160000,4.9,/event-images/event-img02.jpg
+Tech Hub Convention,Bangalore,400,95000,4.7,/event-images/event-img07.jpg
+Skyview Rooftop Cafe,Bangalore,80,35000,4.4,/event-images/event-img08.jpg
+Orchid Banquet Hall,Bangalore,200,60000,4.3,/event-images/event-img09.jpg
+Whitefield Royal Hall,Bangalore,500,130000,4.8,/event-images/event-img10.jpg
+Indiranagar Club Lawn,Bangalore,300,80000,4.5,/event-images/event-img11.jpg
+Victoria Memorial Garden,Kolkata,600,130000,4.9,/event-images/event-img01.jpg
+Salt Lake Banquet Center,Kolkata,300,65000,4.6,/event-images/event-img02.jpg
+Howrah Riverside Lawn,Kolkata,800,150000,4.8,/event-images/event-img03.jpg
+Rajarhat Plaza Hall,Kolkata,150,40000,4.2,/event-images/event-img05.jpg
+Gariahat Heritage Mansion,Kolkata,250,85000,4.7,/event-images/event-img04.jpg

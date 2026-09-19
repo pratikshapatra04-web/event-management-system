@@ -1,0 +1,199 @@
+.user-dash {
+  padding: 4rem 1rem 5rem;
+  background: #fff7fa;
+}
+
+.user-card {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 1.8rem 2rem;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.06);
+  border: 1px solid #ffe2ec;
+  text-align: center;
+}
+
+.user-card h2 {
+  margin-bottom: 0.4rem;
+  color: #ff4b7d;
+}
+
+.user-card p {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.user-links {
+  margin-top: 1.3rem;
+  display: flex;
+  gap: 0.8rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.user-links a {
+  padding: 0.6rem 1.1rem;
+  border-radius: 999px;
+  background: #ff4b7d;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.user-page {
+  padding: 3rem 1rem 5rem;
+  background: #fff7fa;
+}
+
+.info-text {
+  font-size: 0.9rem;
+  color: #777;
+  margin-top: 0.4rem;
+}
+.info-text.error {
+  color: #c62828;
+}
+
+.user-page {
+  padding: 3rem 1rem 5rem;
+  background: #fff7fa;
+  min-height: calc(100vh - 200px);
+}
+.user-payments-page {
+  padding: 5rem 6rem 3rem;
+}
+
+/* Filter bar */
+.payments-filters {
+  display: flex;
+  gap: 1.5rem;
+  margin: 1rem 0 1.5rem;
+  align-items: flex-end;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.filter-group label {
+  margin-bottom: 4px;
+  color: #555;
+}
+
+.filter-group input,
+.filter-group select {
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+/* Invoice cards */
+.invoice-card {
+  background: #fff;
+  border-radius: 18px;
+  padding: 1.5rem 2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.05);
+}
+
+.invoice-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.invoice-header h3 {
+  margin: 0 0 4px;
+}
+
+.invoice-header p {
+  margin: 2px 0;
+  font-size: 14px;
+}
+
+/* Download button */
+.invoice-download-btn {
+  padding: 6px 14px;
+  font-size: 14px;
+}
+
+/* Table */
+.invoice-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.5rem;
+  font-size: 14px;
+}
+
+.invoice-table th,
+.invoice-table td {
+  padding: 6px 8px;
+  text-align: left;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.invoice-total {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 0.8rem;
+  font-size: 15px;
+}
+.payments-filters {
+  display: flex;
+  gap: 1.5rem;
+  margin: 1rem 0 1.5rem;
+  align-items: flex-end;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.filter-group label {
+  margin-bottom: 4px;
+  color: #555;
+}
+
+.filter-group input,
+.filter-group select {
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+.user-dashboard {
+  padding: 2rem;
+}
+.dashboard-container {
+  text-align: center;
+}
+.dashboard-cards {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1.8rem;
+  flex-wrap: wrap;
+}
+.dash-card {
+  width: 250px;
+  border-radius: 12px;
+  padding: 20px;
+  background: #fff6f8;
+  border: 2px solid #ff6f91;
+  transition: 0.4s;
+  text-decoration: none;
+  color: #222;
+}
+.dash-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.09);
+}

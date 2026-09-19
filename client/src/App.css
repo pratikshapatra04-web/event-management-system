@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+
+:root{
+    --primary-color: #8f0f73;
+    --secondary-color: #d6375d;
+    --heading-color: #0b2727;
+    --text-color: #050506;
+    --font-name: "Montserrat", sans-serif;
+    --subtitle-font-name: "Island Moments", cursive;
+}
+/* Ensure page content doesn't hide under header */
+body {
+  padding-top: 90px;
+}
+header.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: var(--font-name);
+}
+a{
+    color: unset;
+}
+ul {
+    list-style: none;
+}  
+.primary__btn{
+    display: inline-block;
+    padding: 0.9rem 2.5rem;
+    color: white;
+    font-size: 1.6rem;
+    background: var(--secondary-color);
+    cursor: pointer;
+    border-radius: 2.5rem;
+}
+.secondary__btn{
+    display: inline-block;
+    padding: 0.9rem 2.5rem;
+    color: var(--secondary-color);
+    font-size: 1.6rem;
+    background: #fff;
+    cursor: pointer;
+    border-radius: 2.5rem;
+}
+
+/*-------------------------------------- Media Queries -------------------------------*/
+
+@media only screen and (max-width:991px){
+    html{
+        font-size: 55%;
+    }
+}
+@media only screen and (max-width:450px){
+    html{
+        font-size: 50%;
+    }
+}
+@media only screen and (max-width:370px){
+    html{
+        font-size: 40%;
+    }
+}
+/* ---------- Global subtitle style ---------- */
+:root {
+  --section-subtitle-color: #000000;       /* pure black */
+  --section-subtitle-size: 1.05rem;       /* a bit bigger */
+}
+
+/* Generic class to reuse everywhere */
+.section-subtitle,
+.team-subtitle,
+.about-subtitle {
+  color: var(--section-subtitle-color);
+  font-size: var(--section-subtitle-size);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.7;
+}
+
+/* Optional: make it slightly smaller on very small screens */
+@media (max-width: 600px) {
+  .section-subtitle,
+  .team-subtitle,
+  .about-subtitle {
+    font-size: 0.98rem;
+  }
+}
+
+/* ==================== DARK MODE CONFIGURATION ==================== */
+body {
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+body.dark-theme {
+  background-color: #0b0f19 !important;
+  color: #f8fafc !important;
+  --primary-color: #d4af37;
+  --secondary-color: #f3e5ab;
+  --heading-color: #f8fafc;
+  --text-color: #cbd5e1;
+}
+
+body.dark-theme header.header {
+  background: rgba(11, 15, 25, 0.9) !important;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-theme footer.footer {
+  background-color: #080b11 !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+body.dark-theme .navbar__logo img {
+  filter: none;
+  background: white;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+body.dark-theme .navbar__links__item a {
+  color: #cbd5e1 !important;
+}
+
+body.dark-theme .navbar__links__item a.active__link,
+body.dark-theme .navbar__links__item a:hover {
+  color: #6366f1 !important;
+}
+
+body.dark-theme .navbar__user__name {
+  color: #e2e8f0 !important;
+}
+
+body.dark-theme .input-glass-card,
+body.dark-theme .recommend-glass-card,
+body.dark-theme .products-section-container,
+body.dark-theme .empty-result-state,
+body.dark-theme .admin-card,
+body.dark-theme .form__container,
+body.dark-theme .login__container,
+body.dark-theme .auth-card,
+body.dark-theme .product-card,
+body.dark-theme .cart-section {
+  background: rgba(15, 23, 42, 0.85) !important;
+  border-color: rgba(255, 255, 255, 0.08) !important;
+  color: #f8fafc !important;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4) !important;
+}
+
+body.dark-theme .recommend-glass-card {
+  background: #111827 !important;
+}
+
+body.dark-theme .input-glass-card h2,
+body.dark-theme .card-content-body h4,
+body.dark-theme .empty-result-state h3,
+body.dark-theme .admin-card h2,
+body.dark-theme .login__form h2,
+body.dark-theme .auth-title {
+  color: white !important;
+}
+
+body.dark-theme .form-control-custom,
+body.dark-theme .login__form input,
+body.dark-theme .auth-form input {
+  background: #1f2937 !important;
+  border-color: #374151 !important;
+  color: white !important;
+}
+
+body.dark-theme .event-type-btn {
+  background: #1f2937 !important;
+  border-color: #374151 !important;
+  color: #94a3b8 !important;
+}
+
+body.dark-theme .event-type-btn.active {
+  background: #6366f1 !important;
+  color: white !important;
+  border-color: #6366f1 !important;
+}
+
+body.dark-theme .card-pricing-footer .price {
+  color: #34d399 !important;
+}
+
+body.dark-theme .card-pricing-footer {
+  border-top-color: #1f2937 !important;
+}
+
+body.dark-theme .form-group label {
+  color: #cbd5e1 !important;
+}
+
+body.dark-theme .admin-table th {
+  background-color: #1f2937 !important;
+  color: white !important;
+  border-bottom: 2px solid #374151 !important;
+}
+
+body.dark-theme .admin-table td {
+  border-bottom: 1px solid #1f2937 !important;
+  color: #cbd5e1 !important;
+}
+
+body.dark-theme .admin-table tr:hover {
+  background-color: rgba(255, 255, 255, 0.03) !important;
+}
+
+body.dark-theme .stat-card {
+  background: #111827 !important;
+  border-color: #1f2937 !important;
+}
+
+body.dark-theme .stat-card .stat-value {
+  color: white !important;
+}
+
+/* Animations for Dark Mode */
+.dark-theme-toggle {
+  background: transparent;
+  border: none;
+  font-size: 2.2rem;
+  cursor: pointer;
+  margin-right: 2rem;
+  transition: transform 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f59e0b;
+}
+
+.dark-theme-toggle:hover {
+  transform: rotate(20deg) scale(1.1);
+}
+
+body.dark-theme .dark-theme-toggle {
+  color: #f8fafc;
+}
+
+body.dark-theme .primary__btn {
+  color: #0b0f19 !important;
+}
+
+body.dark-theme .primary__btn:hover {
+  background: #f8fafc !important;
+  color: #0b0f19 !important;
+}
+
+body.dark-theme .secondary__btn {
+  background: #1f2937 !important;
+  color: var(--secondary-color) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+}
+
+body.dark-theme .secondary__btn:hover {
+  background: #374151 !important;
+  color: white !important;
+}
+
+/* Dark Mode fixes for product lists and cart sections */
+body.dark-theme .product-card h4.product-name,
+body.dark-theme .product-card .product-price,
+body.dark-theme .cart-section h3,
+body.dark-theme .cart-section .cart-total {
+  color: white !important;
+}
+
+body.dark-theme .product-card .product-category {
+  color: #94a3b8 !important;
+}
+
+body.dark-theme .cart-section .cart-item {
+  color: #cbd5e1 !important;
+}
